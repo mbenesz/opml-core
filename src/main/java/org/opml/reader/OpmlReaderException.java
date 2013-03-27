@@ -1,4 +1,4 @@
-package org.opml;
+package org.opml.reader;
 
 /**
  * Exception for problems occurring during reading OPML contents
