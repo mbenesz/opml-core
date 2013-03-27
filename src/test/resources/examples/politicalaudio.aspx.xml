@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml>
+  <head />
+  <body>
+    <outline title="Political Audio" text="Political Audio">
+      <outline title="Democracy Now!" text="Democracy Now!" type="rss" xmlUrl="http://www.democracynow.org/democracynow.rss" htmlUrl="http://www.democracynow.org/" />
+      <outline title="Free Speech Radio News Podcast" text="Free Speech Radio News Podcast" type="rss" xmlUrl="http://www.fsrn.org/podcast.xml" htmlUrl="http://www.fsrn.org" />
+      <outline title="The Global Shortwave Report" text="The Global Shortwave Report" type="rss" xmlUrl="http://www.feedfire.com/site/rss.cgi?ChanContentId=007090" htmlUrl="http://www.outfarpress.com/outfarpress/shortwave.shtml" />
+    </outline>
+  </body>
+</opml>

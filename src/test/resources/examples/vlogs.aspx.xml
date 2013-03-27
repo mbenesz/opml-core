@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<opml>
+  <head />
+  <body>
+    <outline title="Video Blogs" text="Video Blogs">
+      <outline title="Andy Carvin's Waste of Bandwidth: Video Archives" text="Andy Carvin's Waste of Bandwidth: Video Archives" type="rss" xmlUrl="http://www.wotzwot.com/rssxl.php?pageurl=http%3A%2F%2Fwww.andycarvin.com%2Farchives%2Fvideo%2Findex.html&amp;sf=%3Cdiv+class%3D%22content%22%3E&amp;si=%3Ch2%3E&amp;ei=%3Cp+class%3D%22posted%22%3E&amp;sd=&amp;ed=&amp;linkno=" htmlUrl="http://www.andycarvin.com/archives/video/index.html" />
+      <outline title="Brave New Television" text="Brave New Television" type="rss" xmlUrl="http://feeds.feedburner.com/bravenewtv" htmlUrl="http://del.icio.us/tag/bravenewtv" />
+      <outline title="Geek Entertainment TV" text="Geek Entertainment TV" type="rss" xmlUrl="http://feeds.feedburner.com/getv" htmlUrl="http://www.geekentertainment.tv" />
+      <outline title="V L O G ~ F L U X" text="V L O G ~ F L U X" type="rss" xmlUrl="http://feeds.feedburner.com/VLOGFLUX" htmlUrl="http://fluxrostrum.blogspot.com" />
+    </outline>
+  </body>
+</opml>

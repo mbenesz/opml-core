@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<opml>
+  <head />
+  <body>
+    <outline title="BigPicEcoNews" text="BigPicEcoNews">
+      <outline title="del.icio.us/popular/environment" text="del.icio.us/popular/environment" type="rss" xmlUrl="http://del.icio.us/rss/popular/environment" htmlUrl="http://del.icio.us/popular/environment" />
+      <outline title="ENN: Environmental News Network [[ Today's News Homepage ]]" text="ENN: Environmental News Network [[ Today's News Homepage ]]" type="rss" xmlUrl="http://www.wotzwot.com/rssxl.php?pageurl=http%3A%2F%2Fwww.enn.com%2Ftodays_news_main_d.html&amp;sf=%3Cspan+class%3D%22mainbodyheadlines%22%3E&amp;si=class%3D%22mainbodyheadlines%22%3E&amp;ei=%3Cdiv+align%3D%22right%22%3E&amp;sd=&amp;ed=&amp;linkno=2" htmlUrl="http://www.enn.com/todays_news_main_d.html" />
+      <outline title="Gristmill" text="Gristmill" type="rss" xmlUrl="http://gristmill.grist.org/rss" htmlUrl="http://gristmill.grist.org/" />
+      <outline title="Sprol.com, the worst places in the world" text="Sprol.com, the worst places in the world" type="rss" xmlUrl="http://feeds.feedburner.com/Sprol" htmlUrl="http://www.sprol.com" />
+      <outline title="Treehugger" text="Treehugger" type="rss" xmlUrl="http://www.treehugger.com/index.xml" htmlUrl="http://www.treehugger.com/" />
+      <outline title="WorldChanging: Another World Is Here" text="WorldChanging: Another World Is Here" type="rss" xmlUrl="http://www.worldchanging.com/index.xml" htmlUrl="http://www.worldchanging.com/" />
+    </outline>
+  </body>
+</opml>
