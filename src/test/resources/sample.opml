@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+        <head>
+                <title>String</title>
+        </head>
+        <body>
+                <outline text="string" type="text">
+                	<outline text="string" type="link"></outline>
+                </outline>
+        </body>
+</opml>

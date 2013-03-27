@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- $Id: contents.xsd,v 1.3 2009/12/17 22:02:23 ginger Exp $ -->
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<xs:schema targetNamespace="http://www.dlese.org/Metadata/opml/contents" xmlns:c="http://www.dlese.org/Metadata/opml/contents"  xmlns:xs="http://www.w3.org/2001/XMLSchema" elementFormDefault="qualified" attributeFormDefault="unqualified">
 	<xs:annotation>
 		<xs:documentation>**********************</xs:documentation>
 		<xs:documentation>***** HISTORY  *****</xs:documentation>
@@ -21,7 +21,7 @@
 		<xs:annotation>
 			<xs:documentation>type - indicator of how the attributes on the outline element are to be interpreted</xs:documentation>
 		</xs:annotation>
-		<xs:attribute name="type" type="union.typeType" use="optional" default="text"/>
+		<xs:attribute name="type" type="c:union.typeType" use="optional" default="text"/>
 	</xs:attributeGroup>
 
 	<xs:complexType name="bodyType">
@@ -30,7 +30,7 @@
 			<xs:documentation>outline - the contents to be displayed; may contain encoded HMTL markup; see outlineType</xs:documentation>
 		</xs:annotation>
 		<xs:sequence>
-			<xs:element name="outline" type="outlineWithTypeType" minOccurs="1" maxOccurs="unbounded"/>
+			<xs:element name="outline" type="c:outlineWithTypeType" minOccurs="1" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 
@@ -54,10 +54,10 @@
 
 		<xs:sequence>
 			<xs:element name="title" type="xs:string" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="dateCreated" type="rfc822Type" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="dateModified" type="rfc822Type" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="dateCreated" type="c:rfc822Type" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="dateModified" type="c:rfc822Type" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="ownerName" type="xs:string" minOccurs="0" maxOccurs="1"/>
-			<xs:element name="ownerEmail" type="tEmailAddress" minOccurs="0" maxOccurs="1"/>
+			<xs:element name="ownerEmail" type="c:tEmailAddress" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="ownerId" type="xs:anyURI" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="docs" type="xs:anyURI" minOccurs="0" maxOccurs="1"/>
 			<xs:element name="expansionState" type="xs:string" minOccurs="0" maxOccurs="1"/>
@@ -89,7 +89,7 @@
 		<xs:attribute name="text" type="xs:string" use="required"/>
 		<xs:attribute name="isComment" type="xs:boolean" use="optional" default="false"/>
 		<xs:attribute name="isBreakpoint" type="xs:boolean" use="optional" default="false"/>
-		<xs:attribute name="created" type="rfc822Type" use="optional"/>
+		<xs:attribute name="created" type="c:rfc822Type" use="optional"/>
 		<xs:attribute name="category" type="xs:string" use="optional"/>
 		<xs:attribute name="description" type="xs:string" use="optional"/>
 		<xs:attribute name="url" type="xs:anyURI" use="optional"/>
@@ -97,7 +97,7 @@
 		<xs:attribute name="xmlUrl" type="xs:anyURI" use="optional"/>
 		<xs:attribute name="title" type="xs:string" use="optional"/>
 		<xs:attribute name="version" type="xs:string" use="optional"/>
-		<xs:attribute name="language" type="union.languageType" use="optional"/>
+		<xs:attribute name="language" type="c:union.languageType" use="optional"/>
 	</xs:complexType>
 
 	
@@ -108,11 +108,11 @@
 			<xs:documentation>typeAttribute - defines the contents of the type attribute</xs:documentation>
 		</xs:annotation>
 		<xs:complexContent>
-			<xs:extension base="outlineType">
+			<xs:extension base="c:outlineType">
 				<xs:sequence>
-					<xs:element name="outline" type="outlineWithTypeType" minOccurs="0" maxOccurs="unbounded"/>
+					<xs:element name="outline" type="c:outlineWithTypeType" minOccurs="0" maxOccurs="unbounded"/>
 				</xs:sequence>
-				<xs:attributeGroup ref="typeAttribute"/>
+				<xs:attributeGroup ref="c:typeAttribute"/>
 			</xs:extension>
 		</xs:complexContent>
 	</xs:complexType>
@@ -164,11 +164,11 @@
 	</xs:simpleType>
 
 	<xs:simpleType name="union.languageType">
-		<xs:union memberTypes="xs:language unknownType"/>
+		<xs:union memberTypes="xs:language c:unknownType"/>
 	</xs:simpleType>
 
 	<xs:simpleType name="union.typeType">
-		<xs:union memberTypes="xs:string typeType"/>
+		<xs:union memberTypes="xs:string c:typeType"/>
 	</xs:simpleType>
 
 	<xs:simpleType name="unknownType">
