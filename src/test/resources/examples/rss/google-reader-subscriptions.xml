@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>Example subscriptions from Google Reader</title>
+    </head>
+    <body>
+        <outline text="8th Light Blog" title="8th Light Blog" type="rss"
+            xmlUrl="http://blog.8thlight.com/feed/atom.xml" htmlUrl="http://8thlight.github.com/"/>
+        <outline text="al3x" title="al3x" type="rss"
+            xmlUrl="http://feeds.feedburner.com/al3x" htmlUrl="http://al3x.net/"/>
+        <outline text="AlBlue’s Blog" title="AlBlue’s Blog" type="rss"
+            xmlUrl="http://alblue.bandlem.com/feeds/posts/default" htmlUrl="http://alblue.bandlem.com/"/>
+        <outline text="All Things Distributed"
+            title="All Things Distributed" type="rss"
+            xmlUrl="http://www.allthingsdistributed.com/atom.xml" htmlUrl="http://www.allthingsdistributed.com/"/>
+        <outline text="Brainspl.at" title="Brainspl.at" type="rss"
+            xmlUrl="http://brainspl.at/xml/rss20/feed.xml" htmlUrl="http://brainspl.at/"/>
+        <outline text="Coudal Partners Blended Feed"
+            title="Coudal Partners Blended Feed" type="rss"
+            xmlUrl="http://feeds.feedburner.com/CoudalFreshSignals" htmlUrl="http://www.coudal.com/"/>
+        <outline text="Flickr Blog" title="Flickr Blog" type="rss"
+            xmlUrl="http://blog.flickr.net/en/feed/atom/" htmlUrl="http://blog.flickr.net/"/>
+        <outline text="inessential.com" title="inessential.com"
+            type="rss" xmlUrl="http://inessential.com/xml/rss.xml" htmlUrl="http://inessential.com/"/>
+        <outline text="Marco.org" title="Marco.org" type="rss"
+            xmlUrl="http://www.marco.org/rss" htmlUrl="http://www.marco.org/"/>
+        <outline text="Matt Mullenweg" title="Matt Mullenweg" type="rss"
+            xmlUrl="http://ma.tt/feed/" htmlUrl="http://ma.tt"/>
+        <outline text="National Geographic Found"
+            title="National Geographic Found" type="rss"
+            xmlUrl="http://natgeofound.tumblr.com/rss" htmlUrl="http://natgeofound.tumblr.com/"/>
+        <outline text="Scripting News" title="Scripting News" type="rss"
+            xmlUrl="http://scripting.com/rss.xml" htmlUrl="http://scripting.com/"/>
+        <outline text="The GitHub Blog" title="The GitHub Blog"
+            type="rss" xmlUrl="http://github.com/blog.atom" htmlUrl="https://github.com/blog"/>
+        <outline text="xkcd.com" title="xkcd.com" type="rss"
+            xmlUrl="http://xkcd.com/rss.xml" htmlUrl="http://xkcd.com/"/>
+    </body>
+</opml>
