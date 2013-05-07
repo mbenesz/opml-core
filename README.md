@@ -44,7 +44,16 @@ The release versions of the library are deployed to Github which means you will
 need to add a repository to your Maven POM:
 
 ```xml
-  <!-- TBD very very shortly -->
+  <repositories>
+    <repository>
+      <id>opml-core-mvn-repo</id>
+      <url>https://raw.github.com/ashri/opml-core/mvn-repo/</url>
+      <snapshots>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+      </snapshots>
+    </repository>
+  </repositories>
 ```
 
 You can then reference the library as a dependency using the following:
