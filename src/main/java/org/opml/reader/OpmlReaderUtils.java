@@ -6,6 +6,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
+import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -16,8 +17,8 @@ import java.util.logging.Logger;
 public class OpmlReaderUtils {
 
     private static final Logger log = Logger.getLogger(OpmlReader.class.getName());
-    private static final DateFormat ISO8601_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ssZ");
-    private static final DateFormat RFC822_DATE_FORMAT = new SimpleDateFormat("E, dd MMM yyyy hh:mm:ss z");
+    private static final DateFormat ISO8601_DATE_FORMAT = new SimpleDateFormat("yyyy-MM-dd'T'hh:mm:ssZ", Locale.ENGLISH);
+    private static final DateFormat RFC822_DATE_FORMAT = new SimpleDateFormat("E, dd MMM yyyy hh:mm:ss z", Locale.ENGLISH);
 
     public static URL parseUrl(String nodeName, String rawText) {
 
